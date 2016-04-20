@@ -5,10 +5,10 @@
         id        = "com.moodle.moodlemobile"
         versionCode = "2011"
         version   = "3.0.0">
-    <name>MyMarcellin Mobile</name>
+    <name>MyMarcellin</name>
 
     <description>
-        MyMarcellin Mobile official app
+        MyMarcellin Mobile 
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
