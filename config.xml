@@ -104,27 +104,7 @@
     <gap:splash src="resources/ios/splash/Default@2x~iphone.png"          gap:platform="ios" width="640" height="960"/>
     <gap:splash src="resources/ios/splash/Default~iphone.png"             gap:platform="ios" width="320" height="480"/>
 
-    <gap:plugin name="cordova-plugin-camera" source="npm" />
-    <gap:plugin name="cordova-plugin-media-capture" source="npm" />
-    <gap:plugin name="cordova-plugin-device" source="npm" />
-    <gap:plugin name="cordova-plugin-file" source="npm" />
-    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
-    <gap:plugin name="cordova-plugin-globalization" source="npm" />
-    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
-    <gap:plugin name="cordova-plugin-network-information" source="npm" />
-    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-
-    <gap:plugin name="com.phonegap.plugins.pushplugin" />
-    <gap:plugin name="net.tunts.webintent" />
-    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="moodlemobile" />
-    </gap:plugin>
-    <gap:plugin name="ionic-plugin-keyboard" source="npm" />
-    <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
-    <gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" />
-    <gap:plugin name="cordova-plugin-zip" source="npm" />
+  
 
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="true" />
