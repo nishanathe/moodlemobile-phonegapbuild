@@ -104,6 +104,18 @@
     <gap:splash src="resources/ios/splash/Default@2x~iphone.png"          gap:platform="ios" width="640" height="960"/>
     <gap:splash src="resources/ios/splash/Default~iphone.png"             gap:platform="ios" width="320" height="480"/>
 
+    <gap:plugin name="cordova-plugin-camera" source="npm" />
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" />
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-file" source="npm" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+    <gap:plugin name="cordova-plugin-globalization" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <gap:plugin name="cordova-plugin-network-information" source="npm" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+
   
 
     <gap:config-file platform="android" parent="/manifest">
