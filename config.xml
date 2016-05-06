@@ -11,8 +11,8 @@
         MyMarcellin Mobile 
     </description>
 
-    <author href="http://marcellin.vic.edu.au" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://marcellin.vic.edu.au" email="it.marcellin.college@gmail.com">
+       Marcellin College
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
