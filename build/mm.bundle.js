@@ -5973,17 +5973,19 @@ angular.module('mm.core.login', [])
             });
         }]
     })
+	/**
     .state('mm_login.site', {
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
         controller: 'mmLoginSiteCtrl'
     })
+	**/
     .state('mm_login.credentials', {
         url: '/cred',
         templateUrl: 'core/components/login/templates/credentials.html',
         controller: 'mmLoginCredentialsCtrl',
         params: {
-            siteurl: '',
+            siteurl: 'https://my.marcellin.vic.edu.au',
             username: '',
             urltoopen: ''
         },
@@ -8624,7 +8626,7 @@ angular.module('mm.core.login')
         if (mmCoreConfigConstants.siteurl) {
             return $state.go('mm_login.credentials', {siteurl: mmCoreConfigConstants.siteurl});
         } else {
-            return $state.go('mm_login.site');
+            return $state.go('mm_login.credentials');
         }
     };
         self.goToSiteInitialPage = function() {
